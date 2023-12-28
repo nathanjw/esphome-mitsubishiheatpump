@@ -23,7 +23,7 @@ CONF_VERTICAL_SWING_SELECT = "vertical_vane_select"
 DEFAULT_CLIMATE_MODES = ["HEAT_COOL", "COOL", "HEAT", "DRY", "FAN_ONLY"]
 DEFAULT_FAN_MODES = ["AUTO", "DIFFUSE", "LOW", "MEDIUM", "MIDDLE", "HIGH"]
 DEFAULT_SWING_MODES = ["OFF", "VERTICAL"]
-HORIZONTAL_SWING_OPTIONS = ["auto","left","left_center","center","right_center","right","swing"]
+HORIZONTAL_SWING_OPTIONS = ["left", "left_center", "center", "right_center", "right", "split", "swing"]
 VERTICAL_SWING_OPTIONS = ["auto", "up", "up_center", "center", "down_center", "down","swing"]
 
 # Remote temperature timeout configuration
