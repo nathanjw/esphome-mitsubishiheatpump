@@ -686,7 +686,7 @@ void MitsubishiHeatPump::setup() {
     this->fan_mode = climate::CLIMATE_FAN_OFF;
     this->swing_mode = climate::CLIMATE_SWING_OFF;
     this->vertical_swing_state_ = "auto";
-    this->horizontal_swing_state_ = "auto";
+    this->horizontal_swing_state_ = "center";
 
 #ifdef USE_CALLBACKS
     hp->setSettingsChangedCallback(
